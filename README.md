@@ -47,9 +47,6 @@ Fonctionnalité : Le driver L298N est un pont en H utilisé pour contrôler la p
 Rôle : Détection de mouvement et orientation
 Fonctionnalité : Le MPU-6050 est un capteur inertiel qui combine un gyroscope à 3 axes et un accéléromètre à 3 axes. Il mesure les rotations et les accélérations du robot, permettant de déterminer son orientation et ses mouvements dans l'espace. Ces données sont essentielles pour la stabilisation, la navigation et le contrôle précis du mouvement du robot
 
-
-
-
 C) Fonctionnalités du robot :
 Un microcontrôleur STM32 offre une gamme étendue de fonctionnalités techniques cruciales pour le fonctionnement efficace et sécurisé d'un robot mobile. Grâce à ses capacités avancées et sa flexibilité, il constitue le cœur du système, permettant de gérer et de coordonner les différentes opérations du robot de manière optimale.
 
@@ -72,5 +69,7 @@ Un hacheur est utilisé pour contrôler la tension et le courant fournis aux mot
 
 6. Les conversions analogiques-numériques
 l'ADC du microcontrôleur STM32 est utilisé pour lire les données du capteur de distance. Cela permet de convertir les signaux analogiques en valeurs numériques que le microcontrôleur peut utiliser pour prendre des décisions pour éviter les obstacles.
+
+Conclusion : En intégrant tous ces composants, on obtient un robot mobile capable de percevoir son environnement, de prendre des décisions intelligentes et de se déplacer de manière autonome. Le microcontrôleur coordonne l'ensemble du système, utilisant les données des capteurs pour ajuster les commandes des moteurs via le driver, permettant ainsi au robot d'interagir efficacement avec son environnement.
 
 
