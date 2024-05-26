@@ -70,7 +70,16 @@ Un hacheur est utilisé pour contrôler la tension et le courant fournis aux mot
 6. Les conversions analogiques-numériques
 l'ADC du microcontrôleur STM32 est utilisé pour lire les données du capteur de distance. Cela permet de convertir les signaux analogiques en valeurs numériques que le microcontrôleur peut utiliser pour prendre des décisions pour éviter les obstacles.
 
-D) Conclusion : 
+D) Fonctionnalités programmés : 
+
+- Les broches du microcontrôleur sont configurées pour piloter les moteurs via le contrôleur L298N et communiquer avec le capteur de distance VL53L0X en utilisant le protocole I2C.
+- Les périphériques tels que les GPIO, les ADC, les interfaces I2C et SPI, les timers et l'UART sont initialisés dans le programme.
+- Le capteur de distance VL53L0X est initialisé et configuré pour effectuer des mesures de distance sans contact via le protocole I2C.
+- Les données de distance mesurées par le capteur sont lues périodiquement.
+- Les moteurs à courant continu sont contrôlés en ajustant la vitesse et la direction à l'aide du contrôleur L298N. Les signaux PWM sont générés pour contrôler la vitesse des moteurs, tandis que les signaux logiques déterminent la direction.
+- Le microcontrôleur pilote les moteurs à courant continu à l'aide du contrôleur L298N en envoyant des signaux PWM et des signaux logiques via les GPIO.
+
+E) Conclusion : 
 
 En intégrant tous ces composants, on obtient un robot mobile capable de percevoir son environnement, de prendre des décisions intelligentes et de se déplacer de manière autonome. Le microcontrôleur coordonne l'ensemble du système, utilisant les données des capteurs pour ajuster les commandes des moteurs via le driver, permettant ainsi au robot d'interagir efficacement avec son environnement.
 
