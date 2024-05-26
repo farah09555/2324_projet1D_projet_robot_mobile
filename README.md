@@ -70,6 +70,8 @@ Un hacheur est utilisé pour contrôler la tension et le courant fournis aux mot
 6. Les conversions analogiques-numériques
 l'ADC du microcontrôleur STM32 est utilisé pour lire les données du capteur de distance. Cela permet de convertir les signaux analogiques en valeurs numériques que le microcontrôleur peut utiliser pour prendre des décisions pour éviter les obstacles.
 
-Conclusion : En intégrant tous ces composants, on obtient un robot mobile capable de percevoir son environnement, de prendre des décisions intelligentes et de se déplacer de manière autonome. Le microcontrôleur coordonne l'ensemble du système, utilisant les données des capteurs pour ajuster les commandes des moteurs via le driver, permettant ainsi au robot d'interagir efficacement avec son environnement.
+D) Conclusion : 
+
+En intégrant tous ces composants, on obtient un robot mobile capable de percevoir son environnement, de prendre des décisions intelligentes et de se déplacer de manière autonome. Le microcontrôleur coordonne l'ensemble du système, utilisant les données des capteurs pour ajuster les commandes des moteurs via le driver, permettant ainsi au robot d'interagir efficacement avec son environnement.
 
 
